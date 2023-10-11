@@ -1,5 +1,15 @@
+import Image from "next/image";
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <section>
+        <div>
+          <Image />
+        </div>
+      </section>
+    </>
+  );
 };
 
 export default Home;
